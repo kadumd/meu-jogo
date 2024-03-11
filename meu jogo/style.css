@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#arena {
+    height: 100%;
+    width: 100%;
+    background-image: url('./img/arena.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#jogador {
+    top: calc(100% - 330px);
+    left: 30px;
+    height: 200px;
+    width: 150px;
+    position: absolute;
+    background-image: url('./img/jogador.gif');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 100ms;
+}
